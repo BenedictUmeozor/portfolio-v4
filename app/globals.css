@@ -29,6 +29,11 @@ html {
     rgb(var(--background-start-rgb));
 } */
 
+::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+}
+
 body {
   background: linear-gradient(to bottom, #0f172a, #101e40);
 }
