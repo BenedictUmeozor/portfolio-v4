@@ -3,20 +3,23 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --navy: #0a192f;
+  --light-navy: #112240;
+  --lightest-navy: #233554;
+  --slate: #8892b0;
+  --light-slate: #a8b2d1;
+  --lightest-slate: #ccd6f6;
+  --white: #e6f1ff;
+  --green: #64ffda;
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+*,
+html {
+  scroll-behavior: smooth !important;
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,10 +27,33 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+body {
+  background: linear-gradient(to bottom, #0f172a, #101e40);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@media only screen and (max-width: 768px) {
+  body {
+    background: linear-gradient(to right, #0f172a, #101e40);
   }
+}
+
+a {
+  transition: all 0.2s ease;
+}
+
+a.link div,
+a.link span {
+  transition: all 0.2s ease;
+}
+
+a.link:hover div {
+  width: 6rem;
+  transition: all 0.2s ease;
+}
+
+a.link:hover span {
+  color: #e2e8f0;
+  transition: all 0.2s ease;
 }
