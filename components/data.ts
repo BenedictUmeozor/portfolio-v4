@@ -17,7 +17,7 @@ export const featured: Project[] = [
       "EasyMart offers a seamless shopping experience with a curated range of products. Find your next favorite item effortlessly with our intuitive interface. Start your online shopping journey",
     liveUrl: "https://easymart-wheat.vercel.app/",
     codeRepository: "https://github.com/BenedictUmeozor/EasyMart",
-    tools: ["Next.js", "Next Auth", "Mongoose", "TaiwindCSS"],
+    tools: ["Next.js", "Next-auth", "TypeScript", "Mongoose", "TaiwindCSS"],
   },
   {
     id: uuidV4(),
@@ -26,7 +26,7 @@ export const featured: Project[] = [
       "Discover a vast library of films with Movie Empire, your go-to app for finding the next cinematic adventure. Explore blockbusters and hidden gems at your fingertips. Experience the thrill of discovery with Movie Empire",
     liveUrl: "https://movie-empire.vercel.app/",
     codeRepository: "https://github.com/BenedictUmeozor/Movie-Empire",
-    tools: ["Next.js", "TypeScript", "TailwindCSS"],
+    tools: ["Next.js", "Next-auth", "TypeScript", "TailwindCSS"],
   },
   {
     id: uuidV4(),
@@ -34,7 +34,7 @@ export const featured: Project[] = [
     description: "A payment solution app I built with a team in a hackathon",
     liveUrl: "https://bridge-self.vercel.app",
     codeRepository: "https://github.com/BenedictUmeozor/Bridge",
-    tools: ["React", "TailwindCSS", "Axios"],
+    tools: ["React", "TypeScript", "TailwindCSS", "Axios"],
   },
 ];
 
@@ -46,7 +46,7 @@ export const projects: Project[] = [
       "Stay informed effortlessly with our news website! Get the latest headlines and breaking stories from around the world, all at your fingertips. Stay ahead and stay connected with our dynamic platform.",
     liveUrl: "https://news-website-wheat-eight.vercel.app/",
     codeRepository: "https://github.com/BenedictUmeozor/News-Website",
-    tools: ["React.js", "Axios", "TailwindCSS"],
+    tools: ["React.js", "TypeScript", "Axios", "TailwindCSS"],
   },
   {
     id: uuidV4(),
@@ -71,7 +71,7 @@ export const projects: Project[] = [
       "Socket.io",
       "Axios",
       "Material UI",
-      "SAAS",
+      "Sass",
     ],
   },
   {
@@ -88,7 +88,7 @@ export const projects: Project[] = [
       "Socket.io",
       "Axios",
       "Material UI",
-      "SAAS",
+      "Sass",
     ],
   },
   {
