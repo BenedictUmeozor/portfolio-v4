@@ -1,5 +1,7 @@
 import { ElementInView } from "@/utils/Element";
 import Experience from "./Experience";
+import Link from "next/link";
+import { ArrowUpRight } from "react-feather";
 
 export default function Resume() {
   return (
@@ -10,6 +12,9 @@ export default function Resume() {
       <div>
         <Experience />
       </div>
+      <Link href="/resume.pdf" className="inline-flex mt-4 text-light_green gap-2 underline">
+        View full resume <ArrowUpRight className="w-4" />
+      </Link>
     </ElementInView>
   );
 }
