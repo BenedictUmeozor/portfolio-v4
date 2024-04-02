@@ -8,10 +8,17 @@ export default function Socials() {
         target="_blank"
         rel="noopener noreferrer"
         title="Linkedin"
+        className="transition-all duration-200 ease-linear hover:scale-110"
       >
         <Linkedin className="w-8" />
       </a>
-      <a href="#" target="_blank" rel="noopener noreferrer" title="Facebook">
+      <a
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Facebook"
+        className="transition-all duration-200 ease-linear hover:scale-110"
+      >
         <Facebook className="w-8" />
       </a>
       <a
@@ -19,10 +26,15 @@ export default function Socials() {
         target="_blank"
         rel="noopener noreferrer"
         title="Github"
+        className="transition-all duration-200 ease-linear hover:scale-110"
       >
         <GitHub className="w-8" />
       </a>
-      <a href="mailto:benedictumeozor@gmail.com" title="Email">
+      <a
+        href="mailto:benedictumeozor@gmail.com"
+        title="Email"
+        className="transition-all duration-200 ease-linear hover:scale-110"
+      >
         <AtSign className="w-8" />
       </a>
       <a
@@ -30,6 +42,7 @@ export default function Socials() {
         target="_blank"
         rel="noopener noreferrer"
         title="Twitter"
+        className="transition-all duration-200 ease-linear hover:scale-110"
       >
         <Twitter className="w-8" />
       </a>

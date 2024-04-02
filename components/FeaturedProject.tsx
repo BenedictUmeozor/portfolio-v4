@@ -8,7 +8,7 @@ export default function FeaturedProject({ project }: Props) {
   return (
     <div
       style={{ background: "rgb(255, 255, 255, 0.05)" }}
-      className="flex flex-col gap-3 mb-6 md:mb-3 p-4 px-6 rounded-sm  transition-all duration-200 ease-linear md:hover:scale-110 shadow-white"
+      className="flex flex-col gap-3 mb-6 md:mb-5 p-4 px-6 rounded-sm  transition-all duration-200 ease-linear md:hover:scale-110 shadow-white"
     >
       {project.liveUrl ? (
         <a
