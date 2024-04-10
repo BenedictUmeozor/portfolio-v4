@@ -2,7 +2,7 @@ import Image from "next/image";
 
 type Props = {
   title: string;
-  images: string[];
+  images: { title: string; image: string; link: string }[];
 };
 
 export default function Technology({ images, title }: Props) {
@@ -14,16 +14,17 @@ export default function Technology({ images, title }: Props) {
       <div className="flex-[3] grid grid-cols-5 md:grid-cols-4 gap-3">
         {images.map((image) => (
           <a
-            href="#"
+            href={image.link}
             target="_blank"
             rel="noopener noreferer"
             style={{ background: "rgb(255, 255, 255, 0.05)" }}
-            key={(image as any).src}
+            key={image.title}
             className="flex items-center justify-center w-16 h-16 rounded-sm cursor-pointer transition-all duration-200 ease-linear hover:scale-105"
+            title={image.title}
           >
             <Image
-              src={image}
-              alt="image"
+              src={image.image}
+              alt={image.title}
               height={100}
               width={100}
               className="w-8"
