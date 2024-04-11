@@ -20,9 +20,9 @@ import apache from "@/assets/apache-13.svg";
 import git from "@/assets/git-icon.svg";
 import vercel from "@/assets/vercel.svg";
 import sass from "@/assets/sass-1.svg";
-import vue from "@/assets/vue.js_Logo_2.svg";
-import mongoose from "@/assets/mongoose.png";
-import prisma from "@/assets/prisma.jpeg";
+import vue from "@/assets/vue-9.svg";
+import mongoose from "@/assets/mongoose-1.svg";
+import prisma from "@/assets/prisma-3.svg";
 
 interface Stack {
   title: string;
