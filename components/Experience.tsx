@@ -7,7 +7,16 @@ export default function Experience() {
         <div className="flex-1 text-xs text-faded_text">2023 - PRESENT</div>
         <div className="flex-[3]">
           <h5 className=" text-light_green mb-2">
-            Frontend developer - Condueet Technologies
+            Frontend developer -{" "}
+            <a
+              href="https://www.signalhire.com/companies/condueet"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2"
+            >
+              Condueet{" "}
+              <ArrowUpRight className="w-4 text-light_green self-end" />
+            </a>
           </h5>
           <p className="text-faded_text text-[0.9rem]">
             I contribute to a dynamic team, creating innovative web apps. With
