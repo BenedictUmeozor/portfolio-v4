@@ -1,13 +1,19 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
 
 const nunito_sans = Nunito_Sans({ subsets: ["latin"] });
 
+export const viewport: Viewport = {
+  themeColor: "#101e40",
+  initialScale: 1,
+  width: "device-width",
+  viewportFit: "cover",
+};
+
 export const metadata: Metadata = {
   title: "Benedict Umeozor",
   description: `I'm a frontend developer passionate about crafting immersive interactive experiences with modern web technologies.`,
-  themeColor: "linear-gradient(to bottom, #0f172a, #101e40)",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",
