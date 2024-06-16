@@ -134,6 +134,6 @@ export const projects: Project[] = [
       "My portfolio website showcases my creative journey, featuring a diverse range of projects that reflect my skills, passions, and dedication",
     liveUrl: "https://benedictumeozor.vercel.app/",
     codeRepository: "https://github.com/BenedictUmeozor/Portfolio",
-    tools: ["React", "TypeScript", "SAAS"],
+    tools: ["Next.js", "TypeScript", "Tailwind"],
   },
 ];
