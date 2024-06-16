@@ -5,7 +5,7 @@ import "./globals.css";
 const nunito_sans = Nunito_Sans({ subsets: ["latin"] });
 
 export const viewport: Viewport = {
-  themeColor: "linear-gradient(to bottom, #0f172a, #101e40)",
+  themeColor: "linear-gradient(to right, #0f172a, #101e40)",
   initialScale: 1,
   width: "device-width",
   viewportFit: "cover",
