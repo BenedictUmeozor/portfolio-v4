@@ -12,6 +12,15 @@ export type Project = {
 export const featured: Project[] = [
   {
     id: uuidV4(),
+    title: "Pendueet",
+    description:
+      "Pendueet allows users to effortlessly manage their pension funds, investments, and savings in one secure platform, with robust security measures and an intuitive user interface to simplify financial planning and promote a worry-free retirement experience",
+    codeRepository: "https://github.com/OnePlug-API/pendueet-frontend",
+    liveUrl: "http://pendueet.condueet.co/",
+    tools: ["React", "TypeScript", "Redux Toolkit", "TailwindCSS", "Axios"],
+  },
+  {
+    id: uuidV4(),
     title: "EasyMart",
     description:
       "EasyMart offers a seamless shopping experience with a curated range of products. Find your next favorite item effortlessly with our intuitive interface. Start your online shopping journey",

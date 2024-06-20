@@ -19,7 +19,7 @@ export default function Links() {
         ></div>
         <span
           className={
-            " text-xs uppercase tracking-widest " +
+            " text-xs uppercase tracking-widest font-bold " +
             (hash === "" || hash === "projects"
               ? "text-light_text"
               : "text-faded_text")
@@ -37,7 +37,7 @@ export default function Links() {
         ></div>
         <span
           className={
-            " text-xs uppercase tracking-widest " +
+            " text-xs uppercase tracking-widest font-bold " +
             (hash === "resume" ? "text-light_text" : "text-faded_text")
           }
         >
@@ -53,7 +53,7 @@ export default function Links() {
         ></div>
         <span
           className={
-            " text-xs uppercase tracking-widest " +
+            " text-xs uppercase tracking-widest font-bold " +
             (hash === "skills" ? "text-light_text" : "text-faded_text")
           }
         >

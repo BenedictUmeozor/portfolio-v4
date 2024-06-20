@@ -1,8 +1,8 @@
 import type { Metadata, Viewport } from "next";
-import { Nunito_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const nunito_sans = Nunito_Sans({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const viewport: Viewport = {
   themeColor: "#0f172a",
@@ -57,7 +57,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={nunito_sans.className}>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }

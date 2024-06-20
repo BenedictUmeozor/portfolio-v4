@@ -4,7 +4,7 @@ export default function Introduction() {
   return (
     <>
       <div>
-        <h1 className=" text-light_text text-3xl md:text-5xl mb-3 font-bold">
+        <h1 className="text-light_text text-3xl md:text-5xl mb-3 font-bold">
           Benedict Umeozor
         </h1>
         <h3 className="text-light_text text-xl md:text-2xl font-semibold mb-4">
