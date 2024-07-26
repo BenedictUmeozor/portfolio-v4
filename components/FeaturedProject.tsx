@@ -15,7 +15,7 @@ export default function FeaturedProject({ project }: Props) {
           href={project.liveUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xl text-light_text font-bold flex items-center gap-2"
+          className="text-lg text-light_text font-bold flex items-center gap-2"
         >
           {project.title}{" "}
           <ArrowUpRight className="w-4 text-faded_text self-end" />
@@ -23,21 +23,21 @@ export default function FeaturedProject({ project }: Props) {
       ) : (
         <h3 className="text-xl text-light_text font-bold"> {project.title}</h3>
       )}
-      <p className="text-faded_text text-[0.9rem]">{project.description}</p>
+      <p className="text-faded_text text-[0.85rem]">{project.description}</p>
       <a
         href={project.codeRepository}
         target="_blank"
         rel="noopener noreferrer"
         className="text-light_text flex items-center gap-2"
       >
-        <Link className="w-4 text-light_text text-[0.8rem]" /> Github
+        <Link className="w-4 text-light_text text-xs" /> Github
       </a>
       <div className="flex items-center gap-2 flex-wrap">
         {project.tools.map((tool) => (
           <p
             key={tool}
             style={{ background: "rgb(45, 212, 191, 0.1)" }}
-            className="text-[0.7rem] text-light_green flex items-center justify-center  p-1 px-2 rounded-2xl"
+            className="text-[0.65rem] text-light_green flex items-center justify-center  p-1 px-2 rounded-2xl"
           >
             {tool}
           </p>

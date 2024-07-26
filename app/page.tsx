@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <main className="max-h-screen max-w-[1800px] mx-auto">
       <Container className="md:h-screen md:grid grid-cols-2">
-        <section className="md:h-screen py-[10%] px-4 md:py-[15%] md:pl-[15%] md:pr-[5%] md:flex flex-col justify-between">
+        <section className="md:h-screen py-[10%] px-4 md:py-[12.5%] md:pl-[15%] md:pr-[5%] md:flex flex-col justify-between">
           <Introduction />
           <Socials />
         </section>
