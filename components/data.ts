@@ -12,6 +12,24 @@ export type Project = {
 export const featured: Project[] = [
   {
     id: uuidV4(),
+    title: "Mapletoby",
+    description:
+      "MapleToby is an elegant online store offering a curated selection of stylish women's wear. Designed to enhance every woman's wardrobe, MapleToby combines trendy fashion with timeless pieces, all available at your fingertips. Explore the latest collections and elevate your style with ease.",
+    codeRepository: "https://github.com/BenedictUmeozor/mapletoby",
+    liveUrl: "https://mapletoby.vercel.app/",
+    tools: ["Next.js", "TypeScript", "TailwindCSS"],
+  },
+  {
+    id: uuidV4(),
+    title: "Fabu",
+    description:
+      "Fabu, the ultimate destination for kids and teenagers who love to read! The website offers a wide selection of stories with colorful illustrations, perfect for young readers who are just starting to explore the world of books",
+    codeRepository: "https://github.com/Fasobu/F-b-frontend",
+    liveUrl: "https://f-b-mauve.vercel.app/",
+    tools: ["React", "TypeScript", "Zustand", "TailwindCSS", "Axios"],
+  },
+  {
+    id: uuidV4(),
     title: "Pendueet",
     description:
       "Pendueet allows users to effortlessly manage their pension funds, investments, and savings in one secure platform, with robust security measures and an intuitive user interface to simplify financial planning and promote a worry-free retirement experience",
@@ -37,6 +55,9 @@ export const featured: Project[] = [
     codeRepository: "https://github.com/BenedictUmeozor/Movie-Empire",
     tools: ["Next.js", "Next-auth", "TypeScript", "TailwindCSS"],
   },
+];
+
+export const projects: Project[] = [
   {
     id: uuidV4(),
     title: "Bridge",
@@ -45,9 +66,6 @@ export const featured: Project[] = [
     codeRepository: "https://github.com/BenedictUmeozor/Bridge",
     tools: ["React", "TypeScript", "TailwindCSS", "Axios"],
   },
-];
-
-export const projects: Project[] = [
   {
     id: uuidV4(),
     title: "News Updates",
@@ -111,15 +129,6 @@ export const projects: Project[] = [
   },
   {
     id: uuidV4(),
-    title: "GetLinked",
-    description:
-      "A UI challenge by getlinked.ai. The challenge involves designing an intuitive and user-friendly interface, optimizing user interactions, and ensuring a delightful user experience.",
-    liveUrl: "https://get-linked-nine.vercel.app/",
-    codeRepository: "https://github.com/BenedictUmeozor/getLinked",
-    tools: ["React", "React Router", "TypeScript", "SAAS"],
-  },
-  {
-    id: uuidV4(),
     title: "Simple Temperature Converter",
     description:
       "A temperature conversion tool that allows you to seamlessly switch between Fahrenheit, Celsius, and Kelvin. Effortlessly convert temperatures with precision and ease. Built as part of an assignment in a bootcamp",
@@ -143,6 +152,6 @@ export const projects: Project[] = [
       "My portfolio website showcases my creative journey, featuring a diverse range of projects that reflect my skills, passions, and dedication",
     liveUrl: "https://benedictumeozor.vercel.app/",
     codeRepository: "https://github.com/BenedictUmeozor/Portfolio",
-    tools: ["Next.js", "TypeScript", "Tailwind"],
+    tools: ["Next.js", "TypeScript", "TailwindCSS"],
   },
 ];
